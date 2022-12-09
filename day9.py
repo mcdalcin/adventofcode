@@ -1,6 +1,3 @@
-import termplotlib as tpl
-import plotille
-
 def is_adjacent(row_1, col_1, row_2, col_2):
     # get distance between each
     return abs(row_1 - row_2) <= 1 and abs(col_1 - col_2) <= 1
